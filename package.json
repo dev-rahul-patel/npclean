@@ -1,0 +1,38 @@
+{
+  "name": "npclean",
+  "version": "1.0.24",
+  "description": "This tool allows you to delete any old unused node_modules/vendor directories which take up unnecessary space on your system. You can then select which one's you want to delete to free up space. 🚀",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "modules",
+    "vendor",
+    "npm",
+    "cli",
+    "clean",
+    "delete",
+    "tool",
+    "free space"
+  ],
+  "author": "Rahul Patel",
+  "license": "MIT",
+  "dependencies": {
+    "get-folder-size": "^2.0.1",
+    "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.23.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dev-rahulpat/npclean"
+  },
+  "bugs": {
+    "url": "https://github.com/dev-rahulpat/npclean/issues"
+  },
+  "homepage": "https://github.com/dev-rahulpat/npclean/blob/main/README.md"
+}
